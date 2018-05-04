@@ -1,0 +1,28 @@
+{
+  "name": "mnp-package",
+  "version": "1.0.0",
+  "description": "A package structure for mnp.",
+  "main": ".",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch",
+    "prepublishOnly": "node scripts/prepublishOnly",
+    "postinstall": "node scripts/postinstall",
+    "postpublish": "node scripts/postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/artdecocode/mnp-package.git"
+  },
+  "keywords": [
+    "mnp-package"
+  ],
+  "author": "Anton <anton@adc.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artdecocode/mnp-package/issues"
+  },
+  "homepage": "https://github.com/artdecocode/mnp-package#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
