@@ -1,0 +1,32 @@
+{
+  "name": "my-new-package",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "main": "build",
+  "scripts": {
+    "test": "zoroaster test/spec --babel",
+    "test-watch": "zoroaster test/spec --watch --babel",
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{ git_url }}"
+  },
+  "keywords": [
+    "{{ keywords }}"
+  ],
+  "author": "{{ author_name }} <{{ author_email }}>",
+  "license": "MIT",
+  "bugs": {
+    "url": "{{ issues_url }}"
+  },
+  "homepage": "{{ readme_url }}",
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.46",
+    "@babel/core": "7.0.0-beta.46",
+    "@babel/plugin-syntax-object-rest-spread": "7.0.0-beta.46",
+    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.46",
+    "@babel/register": "7.0.0-beta.46",
+    "zoroaster": "1.1.0"
+  }
+}
