@@ -8,6 +8,6 @@ exports.default = myNewPackage;
 /**
  * This is the main package file.
  */
-function myNewPackage() {
+async function myNewPackage() {
   console.log('my-new-package called');
 }
