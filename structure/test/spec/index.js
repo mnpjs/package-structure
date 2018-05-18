@@ -1,4 +1,4 @@
-import { equal, assert } from 'zoroaster/assert'
+import { equal } from 'zoroaster/assert'
 import context, { Context } from '../context' // eslint-disable-line no-unused-vars
 import myNewPackage from '../../src'
 
@@ -8,13 +8,11 @@ const T = {
   'is a function'() {
     equal(typeof myNewPackage, 'function')
   },
-  'calls package without error'() {
-    assert.doesNotThrow(() => {
-      myNewPackage()
-    })
+  async 'calls package without error'() {
+    await myNewPackage()
   },
-  async 'calls test context method'(api) {
-    await api.example()
+  async 'calls test context method'({ example }) {
+    await example()
   },
 }
 
