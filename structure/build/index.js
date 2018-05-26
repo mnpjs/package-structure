@@ -11,3 +11,4 @@ exports.default = myNewPackage;
 async function myNewPackage() {
   console.log('my-new-package called');
 }
+//# sourceMappingURL=index.js.map

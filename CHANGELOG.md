@@ -1,3 +1,10 @@
+## 26 May 2018
+
+### 1.2.0
+
+- [feature] use `zoroaster` class context.
+- [dep] update dependencies.
+
 ## 18 May 2018
 
 ### 1.1.1
