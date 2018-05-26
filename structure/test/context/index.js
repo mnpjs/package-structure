@@ -1,20 +1,17 @@
-const example = () => {
-  return 'OK'
-}
-
 /**
- * @typedef {Object} Context
- * @property {example} example An example method
+ * A testing context for the package.
  */
-
-export default async function context () {
-  this.example = example
-  this._destroy = async () => {
+export default class Context {
+  async _init() {
+    console.log('init context')
+  }
+  /**
+   * Example method.
+   */
+  example() {
+    return 'OK'
+  }
+  async _destroy() {
     console.log('destroy context')
   }
 }
-
-/**
- * @type {Context}
- */
-export const Context = {}

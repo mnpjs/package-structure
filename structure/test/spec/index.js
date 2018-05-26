@@ -1,10 +1,10 @@
 import { equal } from 'zoroaster/assert'
-import context, { Context } from '../context' // eslint-disable-line no-unused-vars
+import Context from '../context'
 import myNewPackage from '../../src'
 
-/** @type {Object.<string, (ctx: Context)>} */
+/** @type {Object.<string, (c: Context)>} */
 const T = {
-  context,
+  context: Context,
   'is a function'() {
     equal(typeof myNewPackage, 'function')
   },
