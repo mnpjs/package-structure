@@ -1,3 +1,10 @@
+## 9 June 2018
+
+### 1.3.0
+
+- [feature] a badge, `yarn` install short-cut and correct legal name in readme
+- [feature] files, shorthand flags for zoroaster in `package.json`
+
 ## 26 May 2018
 
 ### 1.2.0
