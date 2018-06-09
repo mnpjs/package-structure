@@ -1,8 +1,12 @@
 # my-new-package
 
-`my-new-package` is a new Node.js npm package.
+[![npm version](https://badge.fury.io/js/my-new-package.svg)](https://badge.fury.io/js/my-new-package)
 
-{{ description }}
+`my-new-package` is a new Node.js npm package. {{ description }}
+
+```sh
+yarn add -E my-new-package
+```
 
 ## `myNewPackage():void`
 
@@ -16,6 +20,6 @@ myNewPackage()
 
 ---
 
-(c) [{{ org }}][1] {{ year }}
+(c) [{{ legal_name }}][1] {{ year }}
 
 [1]: {{ website }}

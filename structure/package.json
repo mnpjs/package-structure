@@ -4,16 +4,19 @@
   "description": "{{ description }}",
   "main": "build",
   "scripts": {
-    "t": "zoroaster --babel",
-    "test": "yarn t test/spec",
-    "test-build": "BABEL_ENV=test-build yarn t test/spec",
+    "t": "zoroaster -b",
+    "test": "zoroaster -b test/spec",
+    "test-build": "BABEL_ENV=test-build yarn test",
     "test-all": "yarn-s test test-build",
-    "test-watch": "yarn test --watch",
+    "test-watch": "yarn test -w",
     "lint": "eslint .",
     "e": "node example",
     "example/": "yarn e example/example.js",
     "build": "babel src --out-dir build --source-maps"
   },
+  "files": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "{{ git_url }}"
