@@ -1,6 +1,6 @@
 # my-new-package
 
-[![npm version](https://badge.fury.io/js/my-new-package.svg)](https://badge.fury.io/js/my-new-package)
+[![npm version](https://badge.fury.io/js/my-new-package.svg)](https://npmjs.org/package/my-new-package)
 
 `my-new-package` is a new Node.js npm package. {{ description }}
 
@@ -8,14 +8,31 @@
 yarn add -E my-new-package
 ```
 
-## `myNewPackage():void`
+## Table Of Contents
 
-Call this function to get a result you want.
+- [Table Of Contents](#table-of-contents)
+- [API](#api)
+  * [`myNewPackage(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
+
+## API
+
+The package is available by importing its default function:
 
 ```js
-const myNewPackage = require('my-new-package')
+import myNewPackage from 'my-new-package'
+```
 
-myNewPackage()
+### `myNewPackage(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`arg2?: boolean,`<br/>`): void`
+
+Call this function to get the result you want.
+
+```js
+/* yarn example */
+import myNewPackage from 'my-new-package'
+
+(async () => {
+  await myNewPackage()
+})()
 ```
 
 ---

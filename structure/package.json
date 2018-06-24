@@ -11,12 +11,11 @@
     "test-watch": "yarn test -w",
     "lint": "eslint .",
     "doc": "doc documentation -o README.md",
-    "bU": "b -U",
-    "bI": "b -I",
     "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f",
     "e": "node example",
     "example/": "yarn e example/example.js",
-    "build": "b --source-maps"
+    "build": "yarn-s b doc",
+    "b": "b --source-maps"
   },
   "files": [
     "build"
