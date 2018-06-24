@@ -1,6 +1,21 @@
+import { debuglog } from 'util'
+
+const LOG = debuglog('my-new-package')
+
 /**
- * This is the main package file.
+ * {{ description }}
+ * @param {Config} config Configuration object.
+ * @param {string} config.type The type.
  */
-export default async function myNewPackage() {
-  console.log('my-new-package called')
+export default async function myNewPackage(config = {}) {
+  const {
+    type,
+  } = config
+  LOG('my-new-package called with %s', type)
+  return type
 }
+
+/**
+ * @typedef {Object} Config
+ * @property {string} type The type.
+ */
