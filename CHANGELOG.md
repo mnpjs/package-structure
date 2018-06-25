@@ -1,3 +1,11 @@
+## 25 June 2018
+
+### 1.4.0
+
+- [feature] Use `bestie`.
+- [fix] Various fixes, #2.
+- [doc] Create documentation with `documentary`: display tree structure.
+
 ## 9 June 2018
 
 ### 1.3.0

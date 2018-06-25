@@ -1,4 +1,4 @@
-import { equal } from 'zoroaster/assert'
+import { equal, ok } from 'zoroaster/assert'
 import Context from '../context'
 import myNewPackage from '../../src'
 
@@ -11,8 +11,11 @@ const T = {
   async 'calls package without error'() {
     await myNewPackage()
   },
-  async 'calls test context method'({ example }) {
-    await example()
+  async 'gets a link to the fixture'({ FIXTURE }) {
+    const res = await myNewPackage({
+      type: FIXTURE,
+    })
+    ok(res, FIXTURE)
   },
 }
 
