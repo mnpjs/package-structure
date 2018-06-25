@@ -18,6 +18,9 @@ export default class Context {
   example() {
     return 'OK'
   }
+  /**
+   * Path to the fixture file.
+   */
   get FIXTURE() {
     return resolve(FIXTURE, 'test.txt')
   }
