@@ -1,7 +1,64 @@
-# mnp-package
+# @mnpjs/package
 
-The package has been moved to [`@mnp/package`](https://npmjs.org/package/@mnp/package).
+%NPM: @mnpjs/package%
 
+A package structure for `mnp`.
+
+```m
+structure
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── build
+│   ├── index.js
+│   └── index.js.map
+├── documentary
+│   ├── API
+│   ├── footer.md
+│   └── index.md
+├── example
+│   ├── example.js
+│   └── index.js
+├── node_modules
+│   ├── @babel -> ../../../../adc/bestie/node_modules/@babel
+│   ├── @wrote
+│   ├── argufy
+│   ├── assert-diff
+│   ├── assert-plus
+│   ├── assert-throws
+│   ├── babel-plugin-transform-rename-import -> ../../../../adc/bestie/node_modules/babel-plugin-transform-rename-import
+│   ├── catchment
+│   ├── clean-stack
+│   ├── cli-color
+│   ├── diff
+│   ├── difflib
+│   ├── documentary
+│   ├── dreamopt
+│   ├── erotic
+│   ├── erte
+│   ├── es5-ext
+│   ├── eslint-config-artdeco
+│   ├── heap
+│   ├── json-diff
+│   ├── makepromise
+│   ├── pedantry
+│   ├── promto
+│   ├── restream
+│   ├── spawncommand
+│   ├── wordwrap
+│   ├── yarn-s
+│   └── zoroaster
+├── package.json
+├── src
+│   └── index.js
+├── test
+│   ├── context
+│   ├── fixture
+│   └── spec
+└── yarn.lock
+```
+
+[Read more about `mnp`][2]
 
 ---
 
