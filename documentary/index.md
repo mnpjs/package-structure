@@ -1,7 +1,9 @@
 # mnp-package
 
-A package structure for `mnp`.
+The package has been moved to [`@mnp/package`](https://npmjs.org/package/@mnp/package).
+
+<!-- A package structure for `mnp`.
 
 %TREE structure -L 2%
 
-[Read more about `mnp`][2]
+[Read more about `mnp`][2] -->
