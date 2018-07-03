@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/artdecocode/mnp-package.git"
+    "url": "git://github.com/mnpjs/package.git"
   },
   "keywords": [
     "mnp-package"
@@ -21,9 +21,9 @@
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artdecocode/mnp-package/issues"
+    "url": "https://github.com/mnpjs/package/issues"
   },
-  "homepage": "https://github.com/artdecocode/mnp-package#readme",
+  "homepage": "https://github.com/mnpjs/package#readme",
   "devDependencies": {
     "documentary": "1.7.0"
   },

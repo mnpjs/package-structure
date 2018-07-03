@@ -34,7 +34,7 @@
   },
   "homepage": "{{ readme_url }}",
   "devDependencies": {
-    "documentary": "1.7.0",
+    "documentary": "1.8.2",
     "eslint-config-artdeco": "1.0.0",
     "yarn-s": "1.1.0",
     "zoroaster": "2.1.0"
