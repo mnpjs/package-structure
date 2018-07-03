@@ -1,5 +1,5 @@
 {
-  "name": "mnp-package",
+  "name": "@mnp/package",
   "version": "1.4.1",
   "description": "A package structure for mnp.",
   "main": ".",
