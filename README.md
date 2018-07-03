@@ -1,6 +1,6 @@
 # @mnpjs/package
 
-%NPM: @mnpjs/package%
+[![npm version](https://badge.fury.io/js/%40mnpjs%2Fpackage.svg)](https://npmjs.org/package/@mnpjs/package)
 
 A package structure for `mnp`.
 
