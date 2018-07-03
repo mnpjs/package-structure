@@ -1,6 +1,6 @@
 {
   "name": "@mnpjs/package",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A package structure for mnp.",
   "main": ".",
   "scripts": {
