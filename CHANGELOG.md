@@ -1,5 +1,9 @@
 ## 3 July 2018
 
+### 1.4.2
+
+- [feature] Add `trademark` placeholder, update `documentary`, move documentation to `documentary`.
+
 ### 1.4.1
 
 - [feature] Deprecate `mnp-package` and move to `@mnp/package`.
