@@ -1,3 +1,9 @@
+## 3 July 2018
+
+### 1.4.1
+
+- [feature] Deprecate `mnp-package` and move to `@mnp/package`.
+
 ## 25 June 2018
 
 ### 1.4.0
