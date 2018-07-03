@@ -1,5 +1,5 @@
 {
-  "name": "@mnp/package",
+  "name": "@mnpjs/package",
   "version": "1.4.1",
   "description": "A package structure for mnp.",
   "main": ".",
@@ -16,7 +16,8 @@
     "url": "git://github.com/mnpjs/package.git"
   },
   "keywords": [
-    "mnp-package"
+    "mnp",
+    "package"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
