@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/mnpjs/package#readme",
   "devDependencies": {
-    "documentary": "1.8.2"
+    "documentary": "1.8.2",
+    "eslint-config-artdeco": "1.0.0"
   },
   "dependencies": {}
 }
