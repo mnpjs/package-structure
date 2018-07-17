@@ -1,3 +1,10 @@
+## 17 July 2018
+
+### 1.5.0
+
+- [package] Use `artdeco`'s `eslint`, specify files.
+- [mnp] Upgrade to `mnp@0.10`.
+
 ## 3 July 2018
 
 ### 1.4.3
