@@ -15,6 +15,16 @@
     "type": "git",
     "url": "git://github.com/mnpjs/package.git"
   },
+  "files": [
+    "structure",
+    "scripts",
+    "index.js"
+  ],
+  "mnp": {
+    "onCreate": [
+      "yarn"
+    ]
+  },
   "keywords": [
     "mnp",
     "package"

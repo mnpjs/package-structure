@@ -1,3 +1,1 @@
-const { resolve } = require('path')
-
-module.exports = resolve(__dirname, 'structure')
+module.exports = __dirname
