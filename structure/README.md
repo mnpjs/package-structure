@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/my-new-package.svg)](https://npmjs.org/package/my-new-package)
 
-`my-new-package` is a new Node.js npm package. {{ description }}
+`my-new-package` is {{ description }}
 
 ```sh
 yarn add -E my-new-package
@@ -27,7 +27,7 @@ import myNewPackage from 'my-new-package'
 Call this function to get the result you want.
 
 ```js
-/* yarn example */
+/* yarn example/ */
 import myNewPackage from 'my-new-package'
 
 (async () => {
