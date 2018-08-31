@@ -1,3 +1,9 @@
+## 1 September 2018
+
+### 1.6.0
+
+- [package] Use [`alamode`](https://alamode.cc).
+
 ## 17 July 2018
 
 ### 1.5.0
