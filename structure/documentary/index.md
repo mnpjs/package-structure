@@ -2,7 +2,7 @@
 
 %NPM: my-new-package%
 
-`my-new-package` is a new Node.js npm package. {{ description }}
+`my-new-package` is {{ description }}
 
 ```sh
 yarn add -E my-new-package

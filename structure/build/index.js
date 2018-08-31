@@ -1,28 +1,25 @@
-"use strict";
+const { debuglog } = require('util');
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = myNewPackage;
+const LOG = debuglog('my-new-package')
 
-var _util = require("util");
-
-const LOG = (0, _util.debuglog)('my-new-package');
 /**
  * {{ description }}
  * @param {Config} config Configuration object.
  * @param {string} config.type The type.
  */
-
-async function myNewPackage(config = {}) {
+               async function myNewPackage(config = {}) {
   const {
-    type
-  } = config;
-  LOG('my-new-package called with %s', type);
-  return type;
+    type,
+  } = config
+  LOG('my-new-package called with %s', type)
+  return type
 }
+
 /**
  * @typedef {Object} Config
  * @property {string} type The type.
  */
+
+
+module.exports = myNewPackage
 //# sourceMappingURL=index.js.map
