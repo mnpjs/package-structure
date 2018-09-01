@@ -1,5 +1,9 @@
 
----
+## TODO
+
+- [ ] Add a new item to the todo list.
+
+## Copyright
 
 (c) [{{ trademark }}][1] {{ year }}
 
