@@ -20,6 +20,5 @@ const LOG = debuglog('my-new-package')
  * @property {string} type The type.
  */
 
-
 module.exports = myNewPackage
 //# sourceMappingURL=index.js.map

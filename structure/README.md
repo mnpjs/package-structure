@@ -13,6 +13,8 @@ yarn add -E my-new-package
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
   * [`myNewPackage(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
+- [TODO](#todo)
+- [Copyright](#copyright)
 
 ## API
 
@@ -35,7 +37,11 @@ import myNewPackage from 'my-new-package'
 })()
 ```
 
----
+## TODO
+
+- [ ] Add a new item to the todo list.
+
+## Copyright
 
 (c) [{{ trademark }}][1] {{ year }}
 
