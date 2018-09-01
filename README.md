@@ -20,13 +20,13 @@ structure
 │   ├── example.js
 │   └── index.js
 ├── node_modules
-│   ├── @babel -> ../../../../adc/bestie/node_modules/@babel
+│   ├── @a-la
 │   ├── @wrote
+│   ├── alamode
 │   ├── argufy
 │   ├── assert-diff
 │   ├── assert-plus
 │   ├── assert-throws
-│   ├── babel-plugin-transform-rename-import -> ../../../../adc/bestie/node_modules/babel-plugin-transform-rename-import
 │   ├── catchment
 │   ├── clean-stack
 │   ├── cli-color
@@ -41,10 +41,17 @@ structure
 │   ├── heap
 │   ├── json-diff
 │   ├── makepromise
+│   ├── mismatch
+│   ├── node-modules-regexp
 │   ├── pedantry
+│   ├── pirates
 │   ├── promto
 │   ├── restream
+│   ├── rexml
+│   ├── source-map
 │   ├── spawncommand
+│   ├── usually
+│   ├── which-stream
 │   ├── wordwrap
 │   ├── yarn-s
 │   └── zoroaster
