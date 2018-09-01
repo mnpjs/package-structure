@@ -3,6 +3,7 @@
 ### 1.6.0
 
 - [package] Use [`alamode`](https://alamode.cc).
+- [package] Update dependencies: `zoroaster` & `documentary`.
 
 ## 17 July 2018
 
