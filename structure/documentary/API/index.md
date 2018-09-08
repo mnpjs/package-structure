@@ -17,3 +17,5 @@ import myNewPackage from 'my-new-package'
 Call this function to get the result you want.
 
 %EXAMPLE: example/example.js, ../src => my-new-package%
+
+%FORK example example/example%

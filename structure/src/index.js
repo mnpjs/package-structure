@@ -4,10 +4,10 @@ const LOG = debuglog('my-new-package')
 
 /**
  * {{ description }}
- * @param {Config} config Configuration object.
- * @param {string} config.type The type.
+ * @param {Config} config Options for the program.
+ * @param {boolean} config.shouldRun A boolean option.
  */
-export default async function myNewPackage(config = {}) {
+export default async function myNewPackage(config) {
   const {
     type,
   } = config
@@ -15,7 +15,8 @@ export default async function myNewPackage(config = {}) {
   return type
 }
 
+/* documentary types/index.xml */
 /**
- * @typedef {Object} Config
- * @property {string} type The type.
+ * @typedef {Object} Config Options for the program.
+ * @prop {boolean} shouldRun A boolean option.
  */
