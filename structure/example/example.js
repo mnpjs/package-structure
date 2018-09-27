@@ -2,5 +2,8 @@
 import myNewPackage from '../src'
 
 (async () => {
-  await myNewPackage()
+  const res = await myNewPackage({
+    text: 'example',
+  })
+  console.log(res)
 })()
