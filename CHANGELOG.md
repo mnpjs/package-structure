@@ -1,3 +1,9 @@
+## 27 September 2018
+
+### 1.7.0
+
+- [package] Section breaks in documentation, update packages, _Zoroaster_ mask testing.
+
 ## 1 September 2018
 
 ### 1.6.0
