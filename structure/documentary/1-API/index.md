@@ -1,4 +1,3 @@
-
 ## API
 
 The package is available by importing its default function:
@@ -7,7 +6,9 @@ The package is available by importing its default function:
 import myNewPackage from 'my-new-package'
 ```
 
-```### myNewPackage
+%~%
+
+```## myNewPackage
 [
   ["arg1", "string"],
   ["arg2?", "boolean"]
@@ -16,6 +17,7 @@ import myNewPackage from 'my-new-package'
 
 Call this function to get the result you want.
 
-%EXAMPLE: example/example.js, ../src => my-new-package%
+%TYPEDEF types/index.xml%
 
+%EXAMPLE: example/example.js, ../src => my-new-package%
 %FORK example example/example%
