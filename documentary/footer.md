@@ -1,7 +1,8 @@
-
----
+## Copyright
 
 (c) [Art Deco][1] 2018
 
 [1]: https://artdeco.bz
 [2]: https://mnpjs.org
+
+%~ -1%
