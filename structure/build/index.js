@@ -4,11 +4,11 @@ const LOG = debuglog('my-new-package')
 
 /**
  * {{ description }}
- * @param {Config} config Options for the program.
+ * @param {Config} [config] Options for the program.
  * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
  * @param {string} config.text A text to return.
  */
-               async function myNewPackage(config) {
+               async function myNewPackage(config = {}) {
   const {
     shouldRun = true,
     text,

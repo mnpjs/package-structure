@@ -13,7 +13,7 @@ const T = {
   },
   async 'gets a link to the fixture'({ FIXTURE }) {
     const res = await myNewPackage({
-      type: FIXTURE,
+      text: FIXTURE,
     })
     ok(res, FIXTURE)
   },
