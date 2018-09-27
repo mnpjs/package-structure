@@ -13,7 +13,7 @@ structure
 │   ├── index.js
 │   └── index.js.map
 ├── documentary
-│   ├── API
+│   ├── 1-API
 │   ├── footer.md
 │   └── index.md
 ├── example
@@ -21,6 +21,7 @@ structure
 │   └── index.js
 ├── node_modules
 │   ├── @a-la
+│   ├── @artdeco
 │   ├── @wrote
 │   ├── alamode
 │   ├── argufy
@@ -50,6 +51,7 @@ structure
 │   ├── rexml
 │   ├── source-map
 │   ├── spawncommand
+│   ├── typal
 │   ├── usually
 │   ├── which-stream
 │   ├── wordwrap
@@ -62,10 +64,14 @@ structure
 │   ├── context
 │   ├── fixture
 │   └── spec
+├── types
+│   └── index.xml
 └── yarn.lock
 ```
 
 [Read more about `mnp`][2]
+
+
 
 ---
 
