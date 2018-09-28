@@ -1,3 +1,10 @@
+## 28 September 2018
+
+### 1.7.1
+
+- [debug] Update `launch.json` for _Zoroaster_ masks and add example launch config.
+- [example] Implement an easier require.
+
 ## 27 September 2018
 
 ### 1.7.0
