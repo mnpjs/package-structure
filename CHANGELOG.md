@@ -1,3 +1,10 @@
+## 11 December 2018
+
+### 1.7.2 
+
+- [deps] update dependecies
+- [test] don't export mask test
+
 ## 28 September 2018
 
 ### 1.7.1
