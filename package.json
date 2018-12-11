@@ -39,8 +39,5 @@
     "documentary": "1.20.1",
     "eslint-config-artdeco": "1.0.1"
   },
-  "dependencies": {
-    "@wrote/rm": "1.1.0",
-    "@wrote/write": "1.0.0"
-  }
+  "dependencies": {}
 }
