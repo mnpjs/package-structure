@@ -1,6 +1,10 @@
 ## 11 December 2018
 
-### 1.7.2 
+### 1.7.3
+
+- [fix] remove extra deps.
+
+### 1.7.2
 
 - [deps] update dependecies
 - [test] don't export mask test
