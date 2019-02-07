@@ -27,4 +27,3 @@ const LOG = debuglog('my-new-package')
 
 
 module.exports = myNewPackage
-//# sourceMappingURL=index.js.map
