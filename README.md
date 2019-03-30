@@ -10,8 +10,7 @@ structure
 ├── LICENSE
 ├── README.md
 ├── build
-│   ├── index.js
-│   └── index.js.map
+│   └── index.js
 ├── documentary
 │   ├── 1-API
 │   ├── footer.md
@@ -22,7 +21,9 @@ structure
 ├── node_modules
 │   ├── @a-la
 │   ├── @artdeco
+│   ├── @depack
 │   ├── @wrote
+│   ├── @zoroaster
 │   ├── alamode
 │   ├── argufy
 │   ├── assert-diff
@@ -39,22 +40,32 @@ structure
 │   ├── erte
 │   ├── es5-ext
 │   ├── eslint-config-artdeco
+│   ├── forkfeed
+│   ├── fpj
+│   ├── frame-of-mind
 │   ├── heap
 │   ├── json-diff
 │   ├── makepromise
 │   ├── mismatch
 │   ├── node-modules-regexp
+│   ├── paddys
 │   ├── pedantry
 │   ├── pirates
+│   ├── preact
 │   ├── promto
+│   ├── reloquent
+│   ├── resolve-dependency
 │   ├── restream
 │   ├── rexml
+│   ├── snapshot-context
 │   ├── source-map
 │   ├── spawncommand
+│   ├── static-analysis
 │   ├── typal
 │   ├── usually
 │   ├── which-stream
 │   ├── wordwrap
+│   ├── wrote
 │   ├── yarn-s
 │   └── zoroaster
 ├── package.json
@@ -63,6 +74,8 @@ structure
 ├── test
 │   ├── context
 │   ├── fixture
+│   ├── mask
+│   ├── result
 │   └── spec
 ├── types
 │   └── index.xml
