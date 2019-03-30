@@ -36,9 +36,8 @@
   },
   "homepage": "{{ readme_url }}",
   "devDependencies": {
-    "alamode": "1.8.6",
-    "alanode": "1.0.1",
-    "documentary": "1.23.1",
+    "alamode": "1.9.0",
+    "documentary": "1.23.2",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
     "zoroaster": "3.11.2"
