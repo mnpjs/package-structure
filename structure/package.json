@@ -39,9 +39,9 @@
   "homepage": "{{ readme_url }}",
   "devDependencies": {
     "alamode": "1.8.6",
-    "documentary": "1.22.0",
+    "documentary": "1.23.1",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.9.1"
+    "zoroaster": "3.11.2"
   }
 }
