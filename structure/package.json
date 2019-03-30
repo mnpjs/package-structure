@@ -16,7 +16,7 @@
     "d": "yarn-s d1",
     "d1": "NODE_DEBUG=doc doc src/index.js -g",
     "build": "yarn-s d b doc",
-    "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f"
+    "e": "alanode"
   },
   "files": [
     "build",
