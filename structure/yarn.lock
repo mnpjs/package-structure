@@ -179,6 +179,11 @@ alamode@1.8.6:
     usually "1.1.0"
     which-stream "1.0.1"
 
+alanode@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/alanode/-/alanode-1.0.1.tgz#4e84272b6cce13bbfb375e93d68ba399181871a7"
+  integrity sha512-EAUWearfPYamF93jpzEwG1z/dz0xeNZP/uLJWwgExLGr1n2H/RfNQPysQFsvbCIoGVJSJASgvLD5zquP/YRpig==
+
 argufy@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/argufy/-/argufy-1.3.2.tgz#05387dbf12b6fdf15de0678413e6926b018987df"

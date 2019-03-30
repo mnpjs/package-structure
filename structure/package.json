@@ -16,9 +16,7 @@
     "d": "yarn-s d1",
     "d1": "NODE_DEBUG=doc doc src/index.js -g",
     "build": "yarn-s d b doc",
-    "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f",
-    "e": "node example",
-    "example/": "yarn e example/example.js"
+    "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f"
   },
   "files": [
     "build",
@@ -39,6 +37,7 @@
   "homepage": "{{ readme_url }}",
   "devDependencies": {
     "alamode": "1.8.6",
+    "alanode": "1.0.1",
     "documentary": "1.23.1",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",

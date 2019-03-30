@@ -40,7 +40,7 @@ __<a name="type-config">`Config`</a>__: Options for the program.
 | __text*__ | _string_  | A text to return. | -       |
 
 ```js
-/* yarn example/ */
+/* alanode example/ */
 import myNewPackage from 'my-new-package'
 
 (async () => {
