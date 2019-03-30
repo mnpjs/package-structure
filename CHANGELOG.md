@@ -1,5 +1,9 @@
 ## 30 March 2019
 
+### [1.7.5](https://github.com/mnpjs/package/compare/v1.7.4...v1.7.5)
+
+- [dep] Add ÀLaNode to spawn examples without `example/index.js`.
+
 ### [1.7.4](https://github.com/mnpjs/package/compare/v1.7.3...v1.7.4)
 
 - [deps] New _Documentary_ with caching.
