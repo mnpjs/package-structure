@@ -1,6 +1,6 @@
 ## {{ create_date }}
 
-### 1.0.0
+### 0.0.0
 
-- Create `{{ package-name }}` with [`mnp`][https://mnpjs.org]
+- Create `{{ package-name }}` with _[`My New Package`](https://mnpjs.org)_
 - [repository]: `src`, `test`
