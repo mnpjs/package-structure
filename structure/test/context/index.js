@@ -1,9 +1,7 @@
-import { resolve } from 'path'
+import { join } from 'path'
 import { debuglog } from 'util'
 
 const LOG = debuglog('my-new-package')
-
-const FIXTURE = resolve(__dirname, '../fixture')
 
 /**
  * A testing context for the package.
@@ -19,13 +17,14 @@ export default class Context {
     return 'OK'
   }
   /**
-   * Path to the fixture file.
+   * A tagged template that returns the relative path to the fixture.
+   * @param {string} file
+   * @example
+   * fixture`input.txt` // -> test/fixture/input.txt
    */
-  get FIXTURE() {
-    return resolve(FIXTURE, 'test.txt')
-  }
-  get SNAPSHOT_DIR() {
-    return resolve(__dirname, '../snapshot')
+  fixture(file) {
+    const f = file.raw[0]
+    return join('test/fixture', f)
   }
   async _destroy() {
     LOG('destroy context')
