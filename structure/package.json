@@ -13,15 +13,18 @@
     "lint": "eslint .",
     "doc": "NODE_DEBUG=doc doc documentary -o README.md",
     "b": "alamode src -o build -s",
-    "d": "yarn-s d1",
-    "d1": "NODE_DEBUG=doc doc src/index.js -g",
+    "d": "yarn-s d1 externs",
+    "d1": "typal src -c",
+    "externs": "typal externs.js -e",
     "build": "yarn-s d b doc",
     "e": "alanode"
   },
   "files": [
     "build",
-    "src"
+    "src",
+    "externs.js"
   ],
+  "externs": "externs.js",
   "repository": {
     "type": "git",
     "url": "{{ git_url }}"
@@ -36,10 +39,10 @@
   },
   "homepage": "{{ readme_url }}",
   "devDependencies": {
-    "alamode": "1.9.0",
-    "documentary": "1.23.2",
+    "alamode": "^1.9.3",
+    "documentary": "^1.24.1",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.11.2"
+    "zoroaster": "^3.11.6"
   }
 }
