@@ -1,3 +1,10 @@
+## 19 April 2019
+
+### [1.8.0](https://github.com/mnpjs/package/compare/v1.7.5...v1.8.0)
+
+- [feature] Use [_Typal_](https://artdecocode.com/typal/) to generate externs.
+- [deps] Upgrade and unlock dependencies.
+
 ## 30 March 2019
 
 ### [1.7.5](https://github.com/mnpjs/package/compare/v1.7.4...v1.7.5)
