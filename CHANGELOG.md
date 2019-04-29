@@ -1,3 +1,9 @@
+## 29 April 2019
+
+### [1.9.0](https://github.com/mnpjs/package/compare/v1.8.0...v1.9.0)
+
+- [deps] Upgrade to _Àlamode_@v2.
+
 ## 19 April 2019
 
 ### [1.8.0](https://github.com/mnpjs/package/compare/v1.7.5...v1.8.0)
