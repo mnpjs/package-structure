@@ -16,12 +16,12 @@ structure
 │   ├── footer.md
 │   └── index.md
 ├── example
-│   ├── example.js
 │   └── index.js
+├── externs.js
 ├── node_modules
-│   ├── @a-la
 │   ├── @artdeco
 │   ├── @depack
+│   ├── @typedefs
 │   ├── @wrote
 │   ├── @zoroaster
 │   ├── alamode
@@ -30,8 +30,9 @@ structure
 │   ├── assert-plus
 │   ├── assert-throws
 │   ├── catchment
-│   ├── clean-stack
+│   ├── clearr
 │   ├── cli-color
+│   ├── competent
 │   ├── diff
 │   ├── difflib
 │   ├── documentary
@@ -47,10 +48,8 @@ structure
 │   ├── json-diff
 │   ├── makepromise
 │   ├── mismatch
-│   ├── node-modules-regexp
 │   ├── paddys
 │   ├── pedantry
-│   ├── pirates
 │   ├── preact
 │   ├── promto
 │   ├── reloquent
@@ -58,14 +57,12 @@ structure
 │   ├── restream
 │   ├── rexml
 │   ├── snapshot-context
-│   ├── source-map
 │   ├── spawncommand
 │   ├── static-analysis
 │   ├── typal
 │   ├── usually
 │   ├── which-stream
 │   ├── wordwrap
-│   ├── wrote
 │   ├── yarn-s
 │   └── zoroaster
 ├── package.json

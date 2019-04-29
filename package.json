@@ -6,7 +6,7 @@
   "scripts": {
     "test": "zoroaster test/spec",
     "test-watch": "zoroaster test/spec --watch",
-    "doc": "NODE_DEBUG=doc doc documentary -o README.md",
+    "doc": "NODE_DEBUG=doc doc -o README.md",
     "prepublishOnly": "node scripts/prepublishOnly",
     "postinstall": "node scripts/postinstall",
     "postpublish": "node scripts/postpublish"
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/mnpjs/package#readme",
   "devDependencies": {
-    "documentary": "1.23.1",
+    "documentary": "1.26.2",
     "eslint-config-artdeco": "1.0.1"
   },
   "dependencies": {}
