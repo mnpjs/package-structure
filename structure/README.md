@@ -5,7 +5,7 @@
 `my-new-package` is {{ description }}
 
 ```sh
-yarn add -E my-new-package
+yarn add my-new-package
 ```
 
 ## Table Of Contents
@@ -13,7 +13,7 @@ yarn add -E my-new-package
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
 - [`myNewPackage(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
-  * [`Config`](#type-config)
+  * [`_my-new-package.Config`](#type-_my-new-packageconfig)
 - [Copyright](#copyright)
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/0.svg?sanitize=true"></a></p>
@@ -32,12 +32,12 @@ import myNewPackage from 'my-new-package'
 
 Call this function to get the result you want.
 
-__<a name="type-config">`Config`</a>__: Options for the program.
+__<a name="type-_my-new-packageconfig">`_my-new-package.Config`</a>__: Options for the program.
 
-|   Name    |   Type    |    Description    | Default |
-| --------- | --------- | ----------------- | ------- |
-| shouldRun | _boolean_ | A boolean option. | `true`  |
-| __text*__ | _string_  | A text to return. | -       |
+|   Name    |       Type       |    Description    | Default |
+| --------- | ---------------- | ----------------- | ------- |
+| shouldRun | <em>boolean</em> | A boolean option. | `true`  |
+| __text*__ | <em>string</em>  | A text to return. | -       |
 
 ```js
 /* alanode example/ */
