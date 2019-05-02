@@ -1,3 +1,9 @@
+## 2 May 2019
+
+### [1.10.0](https://github.com/mnpjs/package/compare/v1.9.0...v1.10.0)
+
+- [deps] Upgrade to _Zoroaster_@v4.
+
 ## 29 April 2019
 
 ### [1.9.0](https://github.com/mnpjs/package/compare/v1.8.0...v1.9.0)
