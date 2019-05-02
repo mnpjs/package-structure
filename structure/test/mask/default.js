@@ -4,9 +4,9 @@ import myNewPackage from '../../src'
 
 // export default
 makeTestSuite('test/result', {
-  async getResults(input) {
+  async getResults() {
     const res = await myNewPackage({
-      text: input,
+      text: this.input,
     })
     return res
   },
