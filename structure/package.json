@@ -39,10 +39,10 @@
   },
   "homepage": "{{ readme_url }}",
   "devDependencies": {
-    "alamode": "^2.0.0",
-    "documentary": "^1.26.2",
+    "alamode": "^2.1.1",
+    "documentary": "^1.26.5",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "^3.13.0"
+    "zoroaster": "^4.1.0-alpha"
   }
 }
