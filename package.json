@@ -21,7 +21,7 @@
   "mnp": {
     "onCreate": [
       "yarn",
-      "git tag -a v0.0.0-pre"
+      "git tag -a v0.0.0-pre -m v0.0.0-pre"
     ]
   },
   "keywords": [

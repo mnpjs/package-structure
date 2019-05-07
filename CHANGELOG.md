@@ -1,5 +1,9 @@
 ## 7 May 2019
 
+### [1.11.1](https://github.com/mnpjs/package/compare/v1.11.0...v1.11.1)
+
+- [fix] Correctly create initial tag.
+
 ### [1.11.0](https://github.com/mnpjs/package/compare/v1.10.0...v1.11.0)
 
 - [feature] Tag the initial commit with `v.0.0.0-pre`.
