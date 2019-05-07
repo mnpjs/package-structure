@@ -1,6 +1,6 @@
 {
   "name": "@mnpjs/package",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "A package structure for mnp.",
   "scripts": {
     "test": "zoroaster test/spec",
