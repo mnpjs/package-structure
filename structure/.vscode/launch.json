@@ -16,10 +16,7 @@
       "args": [
         "test/spec",
         "test/mask",
-        "-a",
-        "-w",
-        "-t",
-        "9999999"
+        "-a", "-w", "-t", "9999999"
       ],
       "skipFiles": [
         "<node_internals>/**/*.js"
@@ -29,13 +26,10 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Example",
-      "program": "${workspaceFolder}/example/index.js",
-      "env": {
-        "NODE_DEBUG": "my-new-package",
-      },
+      "program": "${workspaceFolder}/node_modules/.bin/alanode",
       "console": "integratedTerminal",
       "args": [
-        "example/example.js"
+        "example"
       ],
       "skipFiles": [
         "<node_internals>/**/*.js"
