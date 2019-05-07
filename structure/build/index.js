@@ -4,7 +4,7 @@ const LOG = debuglog('my-new-package')
 
 /**
  * {{ description }}
- * @param {Config} [config] Options for the program.
+ * @param {_my-new-package.Config} [config] Options for the program.
  * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
  * @param {string} config.text A text to return.
  */
@@ -20,7 +20,12 @@ const LOG = debuglog('my-new-package')
 
 /* documentary types/index.xml */
 /**
- * @typedef {Object} Config Options for the program.
+ * @suppress {nonStandardJsDocs}
+ * @typedef {_my-new-package.Config} Config Options for the program.
+ */
+/**
+ * @suppress {nonStandardJsDocs}
+ * @typedef {Object} _my-new-package.Config Options for the program.
  * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
  * @prop {string} text A text to return.
  */
