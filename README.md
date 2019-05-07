@@ -17,7 +17,6 @@ structure
 │   └── index.md
 ├── example
 │   └── index.js
-├── externs.js
 ├── node_modules
 │   ├── @artdeco
 │   ├── @depack
@@ -58,6 +57,8 @@ structure
 │   ├── result
 │   └── spec
 ├── types
+│   ├── externs.js
+│   ├── index.js
 │   └── index.xml
 └── yarn.lock
 ```

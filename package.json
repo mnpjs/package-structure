@@ -2,7 +2,6 @@
   "name": "@mnpjs/package",
   "version": "1.10.0",
   "description": "A package structure for mnp.",
-  "main": ".",
   "scripts": {
     "test": "zoroaster test/spec",
     "test-watch": "zoroaster test/spec --watch",
@@ -17,12 +16,12 @@
   },
   "files": [
     "structure",
-    "scripts",
-    "index.js"
+    "scripts"
   ],
   "mnp": {
     "onCreate": [
-      "yarn"
+      "yarn",
+      "git tag -a v0.0.0-pre"
     ]
   },
   "keywords": [
@@ -36,7 +35,7 @@
   },
   "homepage": "https://github.com/mnpjs/package#readme",
   "devDependencies": {
-    "documentary": "1.26.2",
+    "documentary": "1.27.2",
     "eslint-config-artdeco": "1.0.1"
   },
   "dependencies": {}
