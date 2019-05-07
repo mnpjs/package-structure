@@ -1,3 +1,11 @@
+## 7 May 2019
+
+### [1.11.0](https://github.com/mnpjs/package/compare/v1.10.0...v1.11.0)
+
+- [feature] Tag the initial commit with `v.0.0.0-pre`.
+- [feature] Create `index.js` types file.
+- [fix] Update the example script to start ÀLaNode.
+
 ## 2 May 2019
 
 ### [1.10.0](https://github.com/mnpjs/package/compare/v1.9.0...v1.10.0)
