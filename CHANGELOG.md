@@ -1,3 +1,10 @@
+## 29 June 2019
+
+### [1.11.2](https://github.com/mnpjs/package/compare/v1.11.1...v1.11.2)
+
+- [fix] Update package fields for `types` and add `export {}`.
+- [deps] Upgrade deps.
+
 ## 7 May 2019
 
 ### [1.11.1](https://github.com/mnpjs/package/compare/v1.11.0...v1.11.1)
