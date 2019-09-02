@@ -18,33 +18,14 @@ structure
 ├── example
 │   └── index.js
 ├── node_modules
-│   ├── @artdeco
-│   ├── @depack
-│   ├── @typedefs
-│   ├── @wrote
 │   ├── @zoroaster
 │   ├── alamode
-│   ├── argufy
 │   ├── catchment
-│   ├── clearr
-│   ├── competent
 │   ├── documentary
-│   ├── erotic
-│   ├── erte
 │   ├── eslint-config-artdeco
-│   ├── fpj
-│   ├── makepromise
-│   ├── mismatch
-│   ├── pedantry
 │   ├── preact
-│   ├── resolve-dependency
-│   ├── restream
-│   ├── rexml
 │   ├── spawncommand
-│   ├── static-analysis
 │   ├── typal
-│   ├── usually
-│   ├── which-stream
 │   ├── yarn-s
 │   └── zoroaster
 ├── package.json
@@ -65,7 +46,9 @@ structure
 
 [Read more about `mnp`][2]
 
-<p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/0.svg?sanitize=true"></a></p>
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/0.svg?sanitize=true">
+</a></p>
 
 ## Copyright
 
@@ -74,4 +57,6 @@ structure
 [1]: https://artdeco.bz
 [2]: https://mnpjs.org
 
-<p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/-1.svg?sanitize=true"></a></p>
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/-1.svg?sanitize=true">
+</a></p>
