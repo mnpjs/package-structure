@@ -1,3 +1,9 @@
+## 2 September 2019
+
+### [1.11.3](https://github.com/mnpjs/package/compare/v1.11.2...v1.11.3)
+
+- [deps] Upgrade deps.
+
 ## 29 June 2019
 
 ### [1.11.2](https://github.com/mnpjs/package/compare/v1.11.1...v1.11.2)
