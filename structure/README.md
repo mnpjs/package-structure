@@ -16,7 +16,9 @@ yarn add my-new-package
   * [`_my-new-package.Config`](#type-_my-new-packageconfig)
 - [Copyright](#copyright)
 
-<p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/0.svg?sanitize=true"></a></p>
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/0.svg?sanitize=true">
+</a></p>
 
 ## API
 
@@ -26,13 +28,15 @@ The package is available by importing its default function:
 import myNewPackage from 'my-new-package'
 ```
 
-<p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/1.svg?sanitize=true"></a></p>
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/1.svg?sanitize=true">
+</a></p>
 
-## `myNewPackage(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`arg2?: boolean,`<br/>`): void`
+## <code><ins>myNewPackage</ins>(</code><sub><br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`arg2?: boolean,`<br/></sub><code>): <i>void</i></code>
 
 Call this function to get the result you want.
 
-__<a name="type-_my-new-packageconfig">`_my-new-package.Config`</a>__: Options for the program.
+<strong><a name="type-_my-new-packageconfig">`_my-new-package.Config`</a></strong>: Options for the program.
 
 |   Name    |       Type       |    Description    | Default |
 | --------- | ---------------- | ----------------- | ------- |
@@ -54,7 +58,9 @@ import myNewPackage from 'my-new-package'
 example
 ```
 
-<p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/2.svg?sanitize=true"></a></p>
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/2.svg?sanitize=true">
+</a></p>
 
 ## Copyright
 
@@ -62,4 +68,6 @@ example
 
 [1]: {{ website }}
 
-<p align="center"><a href="#table-of-contents"><img src="/.documentary/section-breaks/-1.svg?sanitize=true"></a></p>
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/-1.svg?sanitize=true">
+</a></p>
